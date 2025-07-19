@@ -164,7 +164,7 @@ nav a{
     z-index: 1;
     color: var(--text-light);
     font-family: Archivoblack, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .btn{
     z-index: 1;
@@ -196,14 +196,14 @@ nav a{
 }
 .title-d{
     font-family: Archivoblack, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--text-dark);
     margin: 20px 0 40px;
     position: relative;
 }
 .title-g{
     font-family: Archivoblack, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--text-grey);
     margin: 20px 0 40px;
 }
@@ -433,7 +433,7 @@ article .small-image-container{
 }
 .title-dark-wt{
     font-family: Archivoblack, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--text-dark);
     margin: 0 0 40px;
 }
@@ -639,7 +639,7 @@ background-color: var(--additional-grey);
 #about-airnote{
     margin-left: 10%;
     font-family: inter, sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 .td-padding-20{
     padding: 20px 0;
@@ -831,7 +831,7 @@ background-color: var(--additional-grey);
         max-width: 510px;
     }
     html{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .footer-container{
