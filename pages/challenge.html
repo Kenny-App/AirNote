@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your harmonica skills with interactive challenges on AirNote.">
+    <link rel="icon" href="../img/logo.png" type="image/png">
+    <title>AirNote</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo row clickable" href="../index.html">
+                <h2 class="nav-text">Airnote</h2>
+                <img class="logo-size" src="../img/logo.png" alt="logo">
+            </a>
+
+            <ul class="nav-option row nav-text margin-r-30">
+                
+                <li class="dropdown"><a href="#">Tutorials</a>
+                    <ul class="d-content nav-text">
+                        <li><a href="basic.html">Basics</a></li>
+                        <li><a href="theory.html">Theory</a></li>
+                        <li><a href="technique.html">Techniques</a></li>
+                        <li><a href="Improvisation.html">Improvisation</a></li>
+                    </ul>
+                </li>
+                 
+                <li><a href="tabs.html">Tabs</a></li>
+                
+                <li><a href="challenge.html">Challenges</a></li>
+
+                <li><a href="apps.html">Best apps</a></li>
+
+                <li><a href="faq.html">FAQ</a></li>
+
+                <li><a href="about.html">About us</a></li>
+            </ul>
+            <img id="hamburger" class="margin-r-30 inactive" src="../img/menu.png" alt="hamburger">
+            <img id="hamburger-close" class="inactive margin-r-30" src="../img/close.png" alt="hamburger">
+            
+            <ul id="menu-option" class="menu nav-text">
+                
+                <li class="dropdown"><a href="#">Tutorials</a>
+                    <ul class="d-content nav-text">
+                        <li><a href="basic.html">Basics</a></li>
+                        <li><a href="theory.html">Theory</a></li>
+                        <li><a href="technique.html">Techniques</a></li>
+                        <li><a href="Improvisation.html">Improvisation</a></li>
+                    </ul>
+                </li>
+                 
+                <li><a href="tabs.html">Tabs</a></li>
+                
+                <li><a href="challenge.html">Challenges</a></li>
+
+                <li> <a href="apps.html">Best apps</a></li>
+
+                <li><a href="faq.html">FAQ</a></li>
+
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main class="content">
+        <section class="challenge-section center-container top-padding-120">
+            <h1 class="title-dark-wt">Challenges</h1>
+
+            <section class="content bg-blue td-padding-20 rounded">
+            <div class="only-row center-content space-between reverse-col align-vertical">
+
+                    <div class="text-container left-small align-vertical">
+
+                <form id="youtube-url-form" class="adapt-form">
+                    <div class="row-form ">
+                    <input class="description-d" type="text" id="youtube-url" name="youtubetxt">
+                    <div class="bg-orange copybtn only-row align-vertical horizontal-center clickable">
+                    <i class="fa fa-chain"></i>
+                    </div>
+                    </div>
+                </form>
+
+                    <div class="btn text-center" role="button" id="random-btn">
+                        Generate random youtube video
+                    </div>
+                
+                </div>
+                    <div class="youtube-container right-big">
+                    <iframe id="challenges"
+                    src="https://www.youtube.com/embed/BMto9YkOuis?si=7zEkhfw0sHoqUPiD" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                    </iframe>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="margin-t margin-b">
+            <h2  class="title-d">The rule</h2>
+
+            <ol class="description-d height-distance">
+                <li>
+                    <strong>Click the button to generate a random harmonica-related video.</strong>
+                    <ul class="list-disc">
+                        <li>Possibilities include:
+                            <ul class="list-disc">
+                                <li>Backing Tracks</li>
+                                <li>Songs with Tablature</li>
+                                <li>Songs without Tablature</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                
+                <li>
+                   <strong>What to do depending on the video type:</strong> 
+                        <ul class="list-disc">
+                            <li>Backing Track:
+                                <p>Try to improvise or play along using your own melodies.</p>
+                            </li>
+                            <li>Song with Tablature:
+                                <p>Follow the tabs and practice playing the melody.</p>
+                            </li>
+                            <li>Song without Tablature:
+                                <p>Challenge yourself! Try to play by ear or improvise freely.</p>
+                            </li>
+                        </ul>
+                </li>
+   
+                <li>
+                    
+                    <strong>Have fun and don’t be afraid to experiment! Every video is a chance to learn and grow.</strong> 
+                </li>
+
+            </ol>
+
+            </section>
+            <h1 class="title-dark-wt">Possible Songs</h1>
+
+            <section class="photo-gallery-4 margin-b">
+                <div class="grid-display">
+                    <figure>
+                        <a href="../img/bobmarley.webp">
+                    <img src="../img/bobmarley.webp" alt="bob marley">
+                    </a>
+                    <figcaption class="description-d">Bob Marley - Redemption song</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="../img/stevie.webp">
+                    <img src="../img/stevie.webp" alt="stevie wounder">
+                    </a>
+                    <figcaption class="description-d">stevie wounder - isn't she lovely</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="../img/up.webp">
+                    <img src="../img/up.webp" alt="up pixar">
+                    </a>
+                    <figcaption class="description-d">up pixar - Married life </figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="../img/cassiya.webp">
+                    <img src="../img/cassiya.webp" alt="cassiya">
+                    </a>
+                    <figcaption class="description-d">cassiya - ici kot nous ete</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="margin-t margin-b">
+        <div class="logo row">
+            <img src="../img/logo.png" alt="logo">
+            <h2 class="nav-text">Airnote</h2>
+        </div>
+        <p class="foot-text">A website created by an harmonicist for harmonicist</p>
+        <p class="foot-text">&copy; Airnote</p>
+        </div>
+        <div  class="margin-t margin-b">
+            <h2 class="nav-text">Contact us</h2>
+            <a href="mailto:kennybradley2015@gmail.com" target="_blank"><p class="foot-text align-text underline-text"><i class="fa fa-envelope-o"></i> Kennybradley2015@gmail.com </p></a>
+            <a href="tel:+23055032621" target="_blank"><p class="foot-text align-text"><i class="fa fa-phone"></i> 55032621 </p></a>
+            <a href="https://maps.app.goo.gl/jPAi55jADLjE4egv6" target="_blank"><p class="foot-text align-text"><i class="fa fa-map-pin"></i> Petite Riviere, camp des embrevades </p></a>
+            <h2 class="nav-text">My Course</h2>
+            <a href="https://www.utm.ac.mu/courses/bsc-hons-software-engineering-2/" target="_blank"><img class="responsive-img" src="../img/utm.webp" alt="utm logo"></a>
+        </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
