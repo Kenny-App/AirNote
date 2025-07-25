@@ -39,10 +39,11 @@ contactForm.addEventListener("submit", (e) =>{
 });
 
 function validateEmail(){
+    let regex = /^[\w\._-]+@[\w\._-]+\.[a-zA-Z]{2,7}$/;
     let emailvalue = email.value.trim();
     let commentvalue = comment.value;
 
-    if (emailvalue === '' || !emailvalue.includes("@") || !emailvalue.includes(".")){
+    if (emailvalue === '' || !emailvalue.match(regex)){
         email.style.border = "3px red solid"
     }
     else{
